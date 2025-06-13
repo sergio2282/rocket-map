@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ракетная карта в реальном времени</title>
+  <style>
+    html, body, #mapFrame {
+      margin: 0; padding: 0; height: 100vh; width: 100vw; border: none;
+    }
+  </style>
+</head>
+<body>
+  <iframe
+    id="mapFrame"
+    src="https://israelpalestine.liveuamap.com/embed?type=events"
+    allowfullscreen
+  ></iframe>
+</body>
+</html>
